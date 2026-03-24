@@ -1,0 +1,120 @@
+
+*{
+    font-family:  sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: rgb(255, 191, 73);
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h1{
+  
+  font-family: "Pinyon Script", cursive;
+  font-weight: 300;
+
+  text-align: center;
+  margin-top: 10px;
+  font-style: italic;
+}    .formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 3px solid black;
+  
+    border-radius: 10px;
+    background-color: #f3bb62;
+    margin:0% 30% 0% 30%;
+
+}
+
+h4{
+    color: red;
+    text-align: center;
+     padding:0% 0% 0% 0%;
+     border-bottom: 1px solid white;
+     
+     
+}
+.formulario input{
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.formulario input::placeholder{
+    font-size:90%;
+    font-weight: 500;
+    color: black;
+    
+}
+#enviar{
+    padding:10px 0px;
+    width: 10vw;
+    margin-left: 15vw;   
+     background-color: black;
+     color: white;
+
+}
+#nick{
+    padding-top: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+.cifra{
+ 
+    height: 100%;
+    width: 100%;
+      display: flex;
+    align-items: end;
+    justify-content: end;
+  
+    
+}
+.cifraa{ 
+     height: 100%;
+    width: 100%;
+   display: flex;
+    align-items: end;
+    justify-content: end;
+  
+}   
+@media(max-width:700px){
+ h4{
+    font-size: 2.5vw;
+ }
+    #enviar{
+  
+        margin: 0%;
+        width: 100%;
+        font-size: 3vw;
+        background-color: black;
+        color: white;
+
+    }
+      .formulario input{
+    padding: 1vw;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.formulario input::placeholder{
+    font-size :2vw;;
+    font-weight: 500;
+    color: black;
+    
+}
+}
